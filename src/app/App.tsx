@@ -14,7 +14,7 @@ import {
 
 
 const APP_URL = "https://elisazornig.github.io/PLE_Reading_Room/";
-const VIDEO_SRC = "/product-video.mp4";
+const VIDEO_SRC = "product-video.mp4";
 
 const features = [
   {
@@ -38,32 +38,32 @@ const previewScreens = [
   {
     title: "Home",
     body: "A calm overview of your current reading, monthly stats and next book club moments.",
-    image: "/screenshots/home.jpeg",
+    image: "screenshots/home.jpeg",
   },
   {
     title: "Club dashboard",
     body: "Everything your club needs for the current book in one shared place.",
-    image: "/screenshots/club.jpeg",
+    image: "screenshots/club.jpeg",
   },
   {
     title: "Recommendations",
     body: "See why a book fits your group before adding it to the shortlist.",
-    image: "/screenshots/recommendations.jpeg",
+    image: "screenshots/recommendations.jpeg",
   },
   {
     title: "Shortlist",
     body: "Move from options to a final book without endless chat messages.",
-    image: "/screenshots/shortlist.jpeg",
+    image: "screenshots/shortlist.jpeg",
   },
   {
     title: "Discussion",
     body: "Start the meeting with useful questions instead of awkward silence.",
-    image: "/screenshots/discussie.jpeg",
+    image: "screenshots/discussie.jpeg",
   },
   {
     title: "Reading stats",
     body: "Keep personal tracking simple, visual and easy to update.",
-    image: "/screenshots/stats.jpeg",
+    image: "screenshots/stats.jpeg",
   },
 ];
 
@@ -140,7 +140,7 @@ export default function App() {
             </div>
 
             <div className="mx-auto w-full max-w-[370px]">
-              <PhoneFrame image="/screenshots/home.jpeg" title="Home screen" />
+              <PhoneFrame image="screenshots/home.jpeg" title="Home screen" />
             </div>
           </div>
         </section>
