@@ -12,6 +12,7 @@ import {
   Users,
 } from "lucide-react";
 
+
 const APP_URL = "https://elisazornig.github.io/PLE_Reading_Room/";
 const VIDEO_SRC = "/product-video.mp4";
 
